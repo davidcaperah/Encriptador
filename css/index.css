@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: black;
+    color: aliceblue;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+img {
+    height: 100%;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+
+}
+h3{
+    text-align: start;
+}
+textarea{
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 10px;
+    background: radial-gradient(black, transparent);
+    color: white;
+}
+.conten {
+    background: rgba(255, 255, 255, .05);
+    border-radius: 8px;
+}
+.mensaje{
+    display: none;
+}
+.box-body {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.img-container-muñeca {
+    padding-top: 80px;
+    height: 81%;
+}
+
+.img-container-title {
+    padding-top: 2px;
+    height: 90%;
+}
+
+.img-container-logo {
+    height: 90%;
+}
+
+.rotate-center {
+    -webkit-animation: rotate-center 10s steps(100, end) 1s both;
+    animation: rotate-center 10s steps(100, end) 1s both;
+    animation-iteration-count: infinite, 1, 0;
+}
+.btc-encriptar{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background: #0A3871;
+    color: white;
+    border: none;
+}
+.btc-desencriptar{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background: #0A3871;
+    color: white;
+    border: none;
+}
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+/* @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    50% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+      }
+  } */
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    10% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    50% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    60% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    70% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+}
